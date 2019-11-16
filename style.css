@@ -1,0 +1,389 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Candara ;
+
+}
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+.clearfix
+{
+    clear: both;
+}
+header
+{
+    background-image: url(../images/slide-1-fs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 20px;
+    background-attachment: fixed;
+    position: relative;
+}
+header .logo
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    width: 50%
+}
+header .nav 
+{
+    /* position: fixed;
+    width: auto; */
+     margin: auto;
+}
+header .nav  ul 
+{
+   float: left;
+   width: 50%
+}
+header .nav  ul li
+{
+  display: inline-block;
+}
+header .nav  ul li a
+{
+  color: #fff;
+ padding-right: 20px;
+ text-transform: uppercase;
+ font-size: .9rem;
+ transition: color .5s;
+}
+header .nav  ul li a:hover 
+{
+    color: #000;
+}
+header .title 
+{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    width: 30%;
+    transform: translateY(-50%);
+    letter-spacing: 3px;
+}
+header .title p
+{
+    font: .9rem sans-serif;
+}
+header .title span.icon
+{
+    font-size: 2rem;
+    transition: transform .5s ease-in;
+    padding-right: 15px;
+}
+header .title span.icon:hover
+{
+    transform: rotate(360deg);
+    display: inline-block;
+}
+
+/* start about secttion */
+  .about
+  {
+     overflow: hidden;
+     margin-top: 80px;
+  }
+  .about .about-details,.about .about-img
+  {
+      width: 30%;
+      float: left;
+      margin-right: 38px;
+      overflow: hidden;
+  }
+  .about .about-img img 
+  {
+      width: 100%;
+      overflow: hidden;
+      transition: transform .5s ease-in-out;
+      cursor: pointer;
+  }
+  .about .about-img > div{
+      overflow: hidden;
+      margin-bottom: 15px;
+  }
+.about .about-details h3 
+{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.about .about-details p{
+    margin-bottom: 12px;
+    color: rgb(59, 58, 58);
+    line-height: 1.4;
+}
+.about .about-details p:nth-child(3),.about .about-details p:last-child
+{
+    color: #777;
+    transition: .5s;
+}
+.about .about-details p:last-child:hover
+{
+    cursor: pointer;
+    color: #333;
+}
+.about .about-img:hover img
+{
+ transform: scale(1.2)
+}
+.about .about-img h4 
+{
+    font-size: 20px;
+    margin: 7px;
+    color: rgb(92, 91, 91)
+}
+.about .about-img p{
+    color: #777;
+    font-size: .9rem;
+}
+/* end about section */
+
+/* Start folio section */
+.folio
+{
+    margin-top: 80px;
+    background-image: url(../images/slide-7-fw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+}
+.folio .middle-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.folio .middle-text p{
+    display: block;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 10px;
+}
+.folio .middle-text span
+{
+    font-size: .9rem;
+}
+.folio .middle-text button
+{
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    outline: none;
+    margin-right: 10px;
+}
+
+/* End folio section */
+
+
+/* Start Blog section */
+.blog 
+{
+    margin-top: 100px;
+}
+.blog .solution , .blog .accordin 
+{
+    float: left;
+    width: 40%;
+    margin-right: 40px;
+}
+.blog .accordin 
+{
+    float: right;
+}
+.blog .solution h3
+{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.blog .solution h5
+{
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    color: rgb(61, 61, 61)
+}
+.blog .solution p
+{
+    font-size: .9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+.blog .solution a
+{
+    color: #777;
+}
+.blog .accordin .item h3
+{
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+    border-bottom: 3px solid #fff;
+}
+.blog .accordin .item p
+{
+    color: #777;
+    background-color: rgb(221, 218, 218);
+    padding: 10px 20px;
+}
+.blog .item p{
+    display: none;
+}
+/* End Blog section */
+
+/* start counter section */
+.counter
+{
+    margin-top: 80px;
+    background-color: #d63031;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+
+}
+.col-md-3
+{
+    float: left;
+    width: 24%;
+    margin-top: 60px
+}
+.col-md-3 i 
+{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    color: #d63031;
+    margin-bottom: 20px;
+}
+.col-md-3 span
+{
+    display: block;
+}
+.col-md-3 .timer
+{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+
+
+/* end counter section */
+
+
+
+
+
+/* start work section */
+.work
+{
+    margin-top: 80px;
+    overflow: hidden;
+}
+.work .gallary-left,.work .gallary-right
+{
+    float: left;
+    width: 50%;
+}
+.work img
+{
+width: 100%;
+margin: 0;
+padding: 0
+}
+.work .gallary-left .bird ,.work .gallary-left  .second-bird
+{
+    float: left;
+    width: 50%;
+}
+.work .gallary-left .man > div:first-child
+{
+    display: block;
+}
+.work .gallary-right .man  .man-sec
+{
+    float: left;
+    width:50%;
+}
+.work .work-btn
+{
+    color: #777;
+    margin: 30px;
+}
+.work .work-btn ul li 
+{
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.work .work-btn ul li.active
+{
+    color: #d63031
+} 
+/* end work section */
+
+
+/* start footer section */
+ footer
+ {
+     margin-top:80px ;
+     background-color: #333;
+     padding: 30px 20px;
+     color: #fff;
+ }
+ footer i 
+ {
+     color: #f00;
+ }
+
+
+/* end footer section */
+
+
+
+
+
+
+
+.navbar
+{
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 50px;
+    height: 0;
+    padding-top: 20px;
+    color: #fff;
+    z-index: 999;
+    transition: height .5s;
+}
+header .navbar ul li a:hover 
+{
+    color: rgb(245, 6, 6);
+}
